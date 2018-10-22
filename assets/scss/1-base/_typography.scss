@@ -314,3 +314,13 @@ p.general-p {
   right: -5px;
   text-align: right;
 }
+
+.typography__register--caption {
+  color: $white;
+  font-family: $oswaldfont-stack;
+  font-size: 1.2rem;
+  font-weight: $oswaldfont-weight-boldish;
+  letter-spacing: .07rem;
+  position: absolute;
+  bottom: 15px;
+}
