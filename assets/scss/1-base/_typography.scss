@@ -291,3 +291,26 @@ p.general-p {
 .typography__newsroom-heading {
   font-family: $secondaryfont-weight-bold;
 }
+
+.typography__register--h2 {
+  color: $white;
+  font-family: $oswaldfont-stack;
+  font-size: 3.2rem;
+  font-weight: $oswaldfont-weight-boldish;
+  letter-spacing: .05rem;
+  position: relative;
+  text-align: right;
+  top: 30%;
+}
+
+.typography__register--h3 {
+  color: $white;
+  font-family: $oswaldfont-stack;
+  font-size: 1.4rem;
+  font-weight: $oswaldfont-weight-boldish;
+  letter-spacing: .05rem;
+  position: relative;
+  top: 30%;
+  right: -5px;
+  text-align: right;
+}

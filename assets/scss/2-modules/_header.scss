@@ -2,5 +2,9 @@
 // ==========================================
 
 .header__bg {
-  background-image: url('/uploads/DSC_8724.jpg');
+  background-image: url('/uploads/DSC_8724_original-ratio.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 90vh;
 }
