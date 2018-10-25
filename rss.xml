@@ -3,10 +3,10 @@
   <channel>
     <title>Kankakee Community College</title>
     <description></description>
-    <link>https://foundation.kcc.edu/</link>
-    <atom:link href="https://foundation.kcc.edu/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 22 Oct 2018 14:21:16 -0500</pubDate>
-    <lastBuildDate>Mon, 22 Oct 2018 14:21:16 -0500</lastBuildDate>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 25 Oct 2018 10:29:12 -0500</pubDate>
+    <lastBuildDate>Thu, 25 Oct 2018 10:29:12 -0500</lastBuildDate>
     <generator>Jekyll v3.8.4</generator>
     
   </channel>

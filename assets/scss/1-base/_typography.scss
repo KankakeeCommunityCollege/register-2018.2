@@ -294,21 +294,23 @@ p.general-p {
 
 .typography__register--h2 {
   color: $white;
-  font-family: $oswaldfont-stack;
-  font-size: 3.2rem;
+  font-family: eurostile, sans-serif;
+  font-size: 5.4rem;
   font-weight: $oswaldfont-weight-boldish;
-  letter-spacing: .05rem;
+  letter-spacing: .03rem;
   position: relative;
   text-align: right;
   top: 30%;
+  margin-bottom: -10px;
+  margin-right: 2%;
 }
 
 .typography__register--h3 {
   color: $white;
-  font-family: $oswaldfont-stack;
-  font-size: 1.4rem;
+  font-family: eurostile, sans-serif;
+  font-size: 3.25rem;
   font-weight: $oswaldfont-weight-boldish;
-  letter-spacing: .05rem;
+  letter-spacing: .03rem;
   position: relative;
   top: 30%;
   right: -5px;
@@ -323,4 +325,14 @@ p.general-p {
   letter-spacing: .07rem;
   position: absolute;
   bottom: 15px;
+}
+
+.typography__register-h4 {
+  font-family: $oswaldfont-stack;
+  font-size: 2.3rem;
+}
+
+.typography__register-h5 {
+  font-family: $oswaldfont-stack;
+  font-size: 1.4rem;
 }
