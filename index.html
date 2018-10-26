@@ -11,24 +11,60 @@ description: ''
       <div class="col-lg-7 header__bg positioning__offset-global-nav">
         <h2 class="typography__register--h2">Get ahead.</h2>
         <h3 class="typography__register--h3">Get started at KCC.</h3>
-        <h6 class="typography__register--caption">Adrian Benfield, Class of 2017</h6>
+        <span class="typography__register--caption">Adrian Benfield, Class of 2017</span>
       </div>
       <div class="col-lg-5 positioning__accordian--padding">
         <h4 class="typography__register-h4 text-center">Register Now</h4>
-        <h5 class="typography__register-h5 text-center">Classes Begin Jan. 7th</h5>
+        <!--
+          <h5 class="typography__register-h5 text-center">Classes Begin Jan. 7th</h5>
         <h5 class="typography__register-h5 text-center">Seats Are Filling Fast</h5>
-        {% include accordian.html %}
+        -->
+        {% include targetx-form.html %}
       </div>
     </div>
   </div>
 </header>
 <div class="container">
   <div class="row">
+    <div class="col text-center">
+      <h5>Why Choose Kankakee Community College (KCC)?</h5>
+    </div>
+  </div>
+  <div class="row">
     <div class="col">
-      <div class="jumbotron" style="background-color: #BADA55; margin-top: 40px;">
-        <h1>OBEY . . .</h1>
-        <h2>The Jumbotron!</h2>
+      <div class="text-center">
+        {% include save-money.svg %}
       </div>
+      <h6 class="text-center editable">Save Money</h6>
+      <div class="editable">
+        <p><strong>KCC costs 1/3 less</strong> than 4-year colleges and universities and offers the same great education. Plus, financial aid & scholarships.</p>
+      </div>
+    </div>
+    <div class="col">
+      <div class="text-center">
+        {% include love.svg %}
+      </div>
+      <h6 class="text-center editable">Love What You Do</h6>
+      <p>KCC has degree & certificate <strong>options to fit your interests</strong>. You can transfer after KCC to complete a bachelor’s degree, or get ready for the workforce.</p>
+    </div>
+    <div class="col">
+      <div class="text-center">
+        {% include goals.svg %}
+      </div>
+      <h6 class="text-center editable">REACH YOUR GOALS</h6>
+      <p>We care about your progress and want you to succeed. KCC’s small class sizes, faculty and support services help you stay on track to graduate.</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <img src="{{ page.baseurl }}assets/img/idfpr_400x400.png" alt="">
+    </div>
+    <div class="col">
+      <img src="{{ page.baseurl }}assets/img/itransfer.png" alt="" class="float-left">
+      <h6>Illinois<br> Transfer<br> Articulation<br></h6>
+    </div>
+    <div class="col">
+      <img src="{{ page.baseurl }}assets/img/ICCB.png" alt="">
     </div>
   </div>
 </div>
