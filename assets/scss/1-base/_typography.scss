@@ -336,3 +336,12 @@ p.general-p {
   font-family: $oswaldfont-stack;
   font-size: 1.4rem;
 }
+
+.typography__phone--span {
+  color: $white;
+  font-family: $oswaldfont-stack;
+  font-size: 1.2rem;
+  font-weight: $oswaldfont-weight-boldish;
+  letter-spacing: .07rem;
+  white-space: nowrap;
+}
