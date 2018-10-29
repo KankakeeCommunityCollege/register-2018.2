@@ -1,15 +1,35 @@
+// TARGETX STYLES
+// ========================================
 
 .targetx__wrapper {
   margin-top: -35px;
   z-index: -1;
 }
 
+// STYLE OVERRIDES TO TARGETX's STYLESHEET:
+// ========================================
+
 p.supportInfo {
-  display: none;
+  display: none; // Hides an empty paragraph that just makes the form longer
 }
 
-@media screen and (min-width: 992px) {
+.wForm form > div.oneField {
+  margin-top: 0 !important; // Makes the spacing between form questions tighter/closer-together
+}
+
+@media screen and (min-width: 1800px) {
   .wForm form > div.oneField {
-    margin-top: 5px !important;
+    margin-top: 15px !important; // Makes the spacing between form questions tighter/closer-together
+  }
+}
+
+.wFormContainer {
+  padding-left: 5px !important;
+  padding-right: 5px !important;
+}
+
+@media screen and (min-width: 1600px) {
+  .wFormContainer {
+    padding: 1rem 3rem !important;
   }
 }

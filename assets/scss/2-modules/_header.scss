@@ -6,6 +6,13 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 95%;
-  height: 95vh;
+  height: 55%;
+  height: 55vh;
+}
+
+@media screen and (min-width: 1200px) {
+  .header__bg {
+    height: 95%;
+    height: 95vh;
+  }
 }
