@@ -13,8 +13,10 @@ p.supportInfo {
   display: none; // Hides an empty paragraph that just makes the form longer
 }
 
-.wForm form > div.oneField {
-  margin-top: 0 !important; // Makes the spacing between form questions tighter/closer-together
+@media screen and (min-width: 1200px) {
+  .wForm form > div.oneField {
+    margin-top: 0 !important; // Makes the spacing between form questions tighter/closer-together
+  }
 }
 
 @media screen and (min-width: 1800px) {
@@ -30,6 +32,6 @@ p.supportInfo {
 
 @media screen and (min-width: 1600px) {
   .wFormContainer {
-    padding: 1rem 3rem !important;
+    padding: 1rem 2rem !important;
   }
 }
