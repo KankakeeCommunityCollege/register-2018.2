@@ -345,3 +345,39 @@ p.general-p {
   letter-spacing: .07rem;
   white-space: nowrap;
 }
+
+.typography__register--h5 {
+  color: $primary-red;
+  font-family: $oswaldfont-stack;
+  font-size: 3rem;
+  font-weight: $oswaldfont-weight-boldish;
+  letter-spacing: .03rem;
+  margin-bottom: 40px;
+}
+
+@media screen and (min-width: 992px) {
+  .typography__register--h5 {
+    margin-bottom: 60px;
+  }
+}
+
+.typography__register--student-p {
+  color: $black;
+  font-weight: 600;
+  font-size: 1.2em;
+  margin-top: 15px;
+}
+
+.typography__register--img-cap {
+  font-weight: 600;
+  display: block;
+}
+
+.typography__register-itransfer {
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 1;
+  position: absolute;
+  top: 2rem;
+  padding-left: 15px;
+}

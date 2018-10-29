@@ -1,5 +1,15 @@
 
 .targetx__wrapper {
-  margin-top: -30px;
+  margin-top: -35px;
   z-index: -1;
+}
+
+p.supportInfo {
+  display: none;
+}
+
+@media screen and (min-width: 992px) {
+  .wForm form > div.oneField {
+    margin-top: 5px !important;
+  }
 }

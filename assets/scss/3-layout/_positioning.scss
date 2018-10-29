@@ -85,7 +85,7 @@
 
 @media screen and (min-width: 992px) {
   .positioning__accordian--padding {
-    margin-top: 70px;
+    margin-top: 60px;
   }
 }
 
@@ -95,4 +95,18 @@
 
 .positioning__card--spacing {
   margin-bottom: 40px;
+}
+
+.positioning__section--marg {
+  margin-top: 65px;
+}
+
+.positioning__row--pad {
+  margin-top: 25px;
+}
+
+@media screen and (min-width: 992px) {
+  .positioning__register--itransfer-img {
+    padding-left: 25px;
+  }
 }
