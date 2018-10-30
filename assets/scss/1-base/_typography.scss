@@ -416,10 +416,22 @@ p.general-p {
 .typography__phone--span {
   color: $white;
   font-family: $oswaldfont-stack;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   font-weight: $oswaldfont-weight-boldish;
   letter-spacing: .07rem;
   white-space: nowrap;
+}
+
+@media screen and (min-width: 768px) {
+  .typography__phone--span {
+    font-size: 1.45rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .typography__phone--span {
+    font-size: 1.5rem;
+  }
 }
 
 .typography__register--h5 {
@@ -481,7 +493,7 @@ p.general-p {
   display: block;
   content: " ";
   margin-top: -60px;
-  height: 60px; 
+  height: 60px;
   visibility: hidden;
   pointer-events: none;
 }
