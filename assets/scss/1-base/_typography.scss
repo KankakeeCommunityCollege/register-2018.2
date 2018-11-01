@@ -293,22 +293,21 @@ p.general-p {
 }
 
 .typography__register--h2 {
-  color: $white;
+  color: $primary-red;
   font-family: eurostile, sans-serif;
   font-size: 2rem;
   font-weight: $oswaldfont-weight-boldish;
   letter-spacing: .03rem;
   position: relative;
-  text-align: right;
   top: 30%;
   margin-bottom: -10px;
-  margin-right: .5%;
+  margin-left: .5%;
 }
 
 @media screen and (min-width: 400px) {
   .typography__register--h2 {
     font-size: 2.2rem;
-    margin-right: 2%;
+    margin-left: 2%;
   }
 }
 
@@ -331,15 +330,14 @@ p.general-p {
 }
 
 .typography__register--h3 {
-  color: $white;
+  color: $primary-red;
   font-family: eurostile, sans-serif;
   font-size: 1.2rem;
   font-weight: $oswaldfont-weight-boldish;
   letter-spacing: .03rem;
   position: relative;
   top: 31%;
-  right: -10px;
-  text-align: right;
+  left: -10px;
 }
 
 @media screen and (min-width: 400px) {
@@ -437,15 +435,15 @@ p.general-p {
 .typography__register--h5 {
   color: $primary-red;
   font-family: $oswaldfont-stack;
-  font-size: 1.8rem;
-  font-weight: $oswaldfont-weight-boldish;
+  font-size: 2rem;
+  font-weight: $oswaldfont-weight-bold;
   letter-spacing: .03rem;
   margin-bottom: 40px;
 }
 
 @media screen and (min-width: 768px) {
   .typography__register--h5 {
-    font-size: 2rem;
+    font-size: 2.8rem;
   }
 }
 
@@ -474,18 +472,19 @@ p.general-p {
 }
 
 .typography__register-itransfer {
-  font-size: 1.4rem;
+  font-size: 2rem;
   font-weight: 600;
   line-height: 1;
   position: absolute;
-  top: 2rem;
+  top: 4rem;
   padding-left: 15px;
 }
 
 .typography__register--h6 {
-  color: $primary-blue;
-  font-family: $oswaldfont-stack;
-  font-size: 1.4rem;
+  color: $primary-red;
+  font-family: $sairafont-stack;
+  font-weight: 700;
+  font-size: 2rem;
   letter-spacing: .03rem;
 }
 

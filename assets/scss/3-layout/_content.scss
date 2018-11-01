@@ -35,3 +35,10 @@ img.center-image {
 .center-this-text {
   text-align: center;
 }
+
+.content__circle-img {
+  border-color: $primary-blue;
+  border-style: solid;
+  border-width: 3px;
+  filter: drop-shadow(5px 5px 12px $grey-5);
+}

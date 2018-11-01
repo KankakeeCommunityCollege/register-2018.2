@@ -121,6 +121,11 @@
   margin-top: 25px;
 }
 
+.positioning__register--itransfer-img {
+  width: 170px;
+  margin-top: 40px;
+}
+
 @media screen and (min-width: 992px) {
   .positioning__register--itransfer-img {
     padding-left: 25px;
@@ -129,12 +134,6 @@
 
 .positioning__register--mobile-row--pad {
   padding-left: 0;
-}
-
-@media screen and (min-width: 400px) {
-  .positioning__register--mobile-row--pad {
-    padding-left: 10%;
-  }
 }
 
 @media screen and (min-width: 576px) {
@@ -150,7 +149,8 @@
 }
 
 .positioning__register--idfpr-img {
-  width: 280px;
+  width: 330px;
+  margin-top: 60px;
 }
 
 @media screen and (max-width: 992px) {
